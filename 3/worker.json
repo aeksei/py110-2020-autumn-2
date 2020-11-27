@@ -1,0 +1,636 @@
+[
+    {
+        "name": "production",
+        "interval": "1d",
+        "exact_time": "00:30",
+        "workers_amount": 2,
+        "task_list": [
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_reset_password_token_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/security_role_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/web_analytics_event.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/payment_institution_account_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_client_attribute_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/dc_agent_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/task_agent_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/dc_action.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/affiliate_event_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_credit_limit_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/iovation_blackbox.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_promo_code_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_promo_code_source_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_promo_code_client_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_client_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/transaction_transaction_entry_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_installment_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/workflow_workflow_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/strategy_calculation_strategy_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/dc_debt_company_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_identity_document_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/affiliate_lead_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/spain_unnax_webhook.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/web_special_link_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/payment_payment_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/security_user_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/task_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/dc_debt_status_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/spain_asnef_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/cms_item_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_loan_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_loan_permanent_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_discount_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/storage_cloud_file_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/accounting_account_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/payment_institution_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/task_task_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/spain_experian_cais_debt.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_loan_status_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/notification_notification.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/accounting_entry_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_loan_application_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/affiliate_affiliate_request_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_email_contact_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_period_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_email_login_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/instantor_account.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/instantor_transaction_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_product_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/security_permission_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/payment_disbursement_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_client_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_phone_contact_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_marketing_consent_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_client_attachment_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/decision_engine_request.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/checklist_checklist_entry_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/affiliate_partner_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_verify_email_token_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/checklist_checklist_type_audit_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/iovation_transaction.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/spain_asnef_log_row.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_loan_contract_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/activity_activity_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_schedule_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/decision_engine_scoring_value_usage.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/lending_loan_extensions_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/dc_debt_portfolio_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_client_address_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_client_bank_account_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/transaction_transaction_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_client_segment_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/payment_statement.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/dc_debt_agent_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/admin_tools_log_increment.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment/crm_phone_verification_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_join/task_attribute_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_join/loan_application_attribute_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_join/workflow_workflow_attribute_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_join/security_user_role_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_join/security_role_permission_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_join/dc_agent_portfolio_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/spain_equifax_equifax.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/sms_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/spain_scoring_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/spain_experian_cais_resumen.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/dc_settings_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/viventor_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/email_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/rule_rule_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/settings_property_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/payment_institution_audit.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/statement_row.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/spain_crosscheck_log.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/increment_split/spain_experian_cais_operaciones.json"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "collection_report",
+        "interval": "1d",
+        "exact_time": "03:30",
+        "workers_amount": 1,
+        "task_list": [
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_temp_deadlines_initial.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_loan_deadlines_initial.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_client_types_initial.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_collector_names_initial.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_loan_payment_since_2018_initial.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_monthly_balance_initial.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_efficiency_report_initial.json"
+                ]
+            },
+            {
+                "task": "run_file_processor",
+                "arguments": [
+                    "json/collection_report_initial/collection_report_monthly_cash_flow_report_initial.json"
+                ]
+            }
+        ]
+    }
+]

@@ -37,23 +37,23 @@ def counter_main():
     print(my_print.__dict__)  # словарь
 
 
+import time
+
 
 def time_(fn):
-    # import time
+    """
+    Декоратор замеряющий время выполнения любой функции
 
+    :param fn: Функция для замера времени
+    :return: Задекорированная функция
+    """
     def wrapper(*args, **kwargs):
         t0 = time.time()  # время начала выполнения функции
         result = fn(*args, **kwargs)
-
-        time.sleep(1)
         dt = time.time() - t0
 
         print(f"Время выполнения функции {fn.__name__}: {dt:.10f}")
-
-        wrapper.dt = dt
-
-        return dt
-
+        return result
     return wrapper
 
 
